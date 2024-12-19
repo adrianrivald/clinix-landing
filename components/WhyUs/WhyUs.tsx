@@ -1,67 +1,60 @@
+import { TFunction } from "i18next";
 import Image from "next/image";
 import React from "react";
 import { twMerge } from "tailwind-merge";
 import { maxWidthContainer } from "../../constants/class";
 import { USPIcon1, USPIcon2, USPIcon3, USPIcon4 } from "../Icons";
 
-export function WhyUs() {
+interface WhyUsProps {
+  t: TFunction<"common", undefined>;
+}
+
+export function WhyUs({ t }: WhyUsProps) {
   return (
     <div
       id="why-us"
       className={twMerge("p-4 lg:p-16 mt-8 lg:mt-32", maxWidthContainer)}
     >
-      <div className="mt-12">
-        <h2 className="m-0 text-[30px] lg:text-[36px] text-center font-bold w-full">
+      <div className="lg:mt-12">
+        <h2 className="m-0 text-[30px] lg:text-[36px] text-left lg:text-center font-bold w-full">
           Title USP Here
         </h2>
-        <div className="flex flex-col lg:flex-row space-between gap-8 lg:gap-12 mt-20">
+        <div className="flex flex-col lg:flex-row space-between gap-8 lg:gap-12 mt-8 lg:mt-20">
           <div className="lg:w-1/4 flex flex-col gap-4">
             <div className="rounded-full p-4 bg-primary-100 w-[100px] h-[100px] flex justify-center items-center">
               <USPIcon1 />
             </div>
             <h3 className="m-0 font-bold text-[20px]">
-              Memiliki fungsi pelayanan dan akurasi sistem data terdepan
+              {t("home.whyUsHeading1")}{" "}
             </h3>
-            <p className="m-0 text-[20px]">
-              Memastikan kelancaran operasional serta data yang terpercaya
-            </p>
+            <p className="m-0 text-[20px]">{t("home.whyUsSubheading1")} </p>
           </div>
           <div className="lg:w-1/4 flex flex-col gap-4">
             <div className="rounded-full p-4 bg-primary-100 w-[100px] h-[100px] flex justify-center items-center">
               <USPIcon2 />
             </div>
             <h3 className="m-0 font-bold text-[20px]">
-              Mengurangi biaya operasinal yang efesien
+              {t("home.whyUsHeading2")}{" "}
             </h3>
-            <p className="m-0 text-[20px]">
-              Dengan efesiensi sistem yang mengotomatisasi dan mengoptimalkan
-              penggunaan sumber daya Turn on screen reader support
-            </p>
+            <p className="m-0 text-[20px]">{t("home.whyUsSubheading2")} </p>
           </div>
           <div className="lg:w-1/4 flex flex-col gap-4">
             <div className="rounded-full p-4 bg-primary-100 w-[100px] h-[100px] flex justify-center items-center">
               <USPIcon3 />
             </div>
             <h3 className="m-0 font-bold text-[20px]">
-              Mendorong transformasi kesehatan unggul dengan metode profesional
+              {t("home.whyUsHeading3")}{" "}
             </h3>
-            <p className="m-0 text-[20px]">
-              Melalui pendekatan profesional yang berfokus pada kualitas dan
-              peningkatan berkelanjutan dalam setiap aspek pelayanan
-            </p>
+            <p className="m-0 text-[20px]">{t("home.whyUsSubheading3")} </p>
           </div>
           <div className="lg:w-1/4 flex flex-col gap-4">
             <div className="rounded-full p-4 bg-primary-100 w-[100px] h-[100px] flex justify-center items-center">
               <USPIcon4 />
             </div>
             <h3 className="m-0 font-bold text-[20px]">
-              Memberikan pengalaman pelayanan terbaik untuk pasien dan klinik
-              masa depan secara maksimal
+              {t("home.whyUsHeading4")}
             </h3>
-            <p className="m-0 text-[20px]">
-              Memastikan pasien memerima perawatan berkualitas dengan pengalaman
-              yang optimal
-            </p>
+            <p className="m-0 text-[20px]">{t("home.whyUsSubheading4")}</p>
           </div>
         </div>
       </div>
