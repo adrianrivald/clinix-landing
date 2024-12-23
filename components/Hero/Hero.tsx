@@ -47,11 +47,10 @@ export function Hero({ t }: HeroProps) {
 
       {/* Mockup */}
       <Image
-        src="/assets/images/clinix.png"
+        src="/assets/images/hero-clinix.png"
         width={996}
         height={480}
         alt="clinix"
-        className="lg:-mb-8"
       />
     </div>
   );

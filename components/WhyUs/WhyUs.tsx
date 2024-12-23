@@ -13,13 +13,10 @@ export function WhyUs({ t }: WhyUsProps) {
   return (
     <div
       id="why-us"
-      className={twMerge("p-4 lg:p-16 mt-8 lg:mt-32", maxWidthContainer)}
+      className={twMerge("p-4 lg:p-16 mt-8 lg:mt-16", maxWidthContainer)}
     >
-      <div className="lg:mt-12">
-        <h2 className="m-0 text-[30px] lg:text-[36px] text-left lg:text-center font-bold w-full">
-          Title USP Here
-        </h2>
-        <div className="flex flex-col lg:flex-row space-between gap-8 lg:gap-12 mt-8 lg:mt-20">
+      <div>
+        <div className="flex flex-col lg:flex-row space-between gap-8 lg:gap-12 mt-8">
           <div className="lg:w-1/4 flex flex-col gap-4">
             <div className="rounded-full p-4 bg-primary-100 w-[100px] h-[100px] flex justify-center items-center">
               <USPIcon1 />
