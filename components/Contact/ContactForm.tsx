@@ -47,7 +47,8 @@ export function ContactForm({ t }: ContactForm) {
   };
   return (
     <form
-      onSubmit={() => {} /* TODO: Handle Submit Contact */}
+      ref={form}
+      onSubmit={handleSubmit(onSubmit)}
       className="flex flex-col gap-8"
     >
       <div className="flex flex-col gap-2">
