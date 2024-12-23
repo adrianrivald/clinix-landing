@@ -8,9 +8,7 @@ import { Contact, Hero, Testimoni, WhyUs, Banner, Points } from "../components";
 export default function HomePage() {
   const { t } = useTranslation("common");
   const router = useRouter();
-  const onClickToDemo = () => {
-    router.push("/demo");
-  };
+
   return (
     <div>
       <Head>
@@ -20,12 +18,12 @@ export default function HomePage() {
       </Head>
 
       <main>
-        <Hero t={t} onClickToDemo={onClickToDemo} />
+        <Hero t={t} />
         <WhyUs t={t} />
         <Points t={t} />
         <Testimoni t={t} />
         <Contact t={t} />
-        <Banner t={t} onClickToDemo={onClickToDemo} />
+        <Banner t={t} />
       </main>
     </div>
   );
