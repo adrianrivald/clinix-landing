@@ -21,7 +21,7 @@ export default function HomePage() {
         <Hero t={t} />
         <WhyUs t={t} />
         <Points t={t} />
-        <Testimoni t={t} />
+        {/* <Testimoni t={t} /> */}
         <Contact t={t} />
         <Banner t={t} />
       </main>
