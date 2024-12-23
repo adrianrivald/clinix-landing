@@ -14,9 +14,12 @@ import {
   PinMapIcon,
   TwitterRoundedIcon,
 } from "../Icons";
+import { useRouter } from "next/router";
 
 export function Footer() {
   const { t } = useTranslation("common");
+  const router = useRouter();
+
   return (
     <footer className="mb-4 border-t mt-24">
       <div
@@ -44,14 +47,14 @@ export function Footer() {
                 rel="noopener noreferrer"
               >
                 <FacebookRoundedIcon />
-              </Link>
+              </Link> */}
               <Link
-                href="https://instagram.com"
+                href="https://www.instagram.com/memos_idn?igsh=bjdrZTZnMG56c2cy"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <InstagramRoundedIcon />
-              </Link> */}
+              </Link>
               <Link
                 href="https://id.linkedin.com/company/pt-cipta-integrasi-nusantara"
                 target="_blank"
@@ -59,13 +62,13 @@ export function Footer() {
               >
                 <LinkedInRoundedIcon />
               </Link>
-              <Link
+              {/* <Link
                 href="https://x.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <TwitterRoundedIcon />
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
@@ -74,7 +77,7 @@ export function Footer() {
         <div className="flex flex-col gap-4 flex-none ">
           <div className="font-bold">{t("footer.company")}</div>
           <Link href="/about">{t("footer.about")}</Link>
-          <Link href="/career">{t("footer.career")}</Link>
+          {/* <Link href="/career">{t("footer.career")}</Link> */}
         </div>
 
         {/* Produk */}
@@ -106,12 +109,18 @@ export function Footer() {
         {/* Pengetahuan */}
         <div className="flex flex-col gap-4 flex-none ">
           <div className="font-bold">{t("footer.knowledge")}</div>
-          <Link href="https://memos-landing.vercel.app/articles">
+          <Link href="https://memos-landing.vercel.app/article" target="_blank">
             {t("footer.article")}
           </Link>
-          <Link href="/">{t("footer.faq")}</Link>
-          <Link href="/">{t("footer.privacy")}</Link>
-          <Link href="/">{t("footer.terms")}</Link>
+          <Link
+            href="https://memos-landing.vercel.app/?section=faq"
+            target="_blank"
+            className="cursor-pointer"
+          >
+            {t("footer.faq")}
+          </Link>
+          {/* <Link href="/">{t("footer.privacy")}</Link>
+          <Link href="/">{t("footer.terms")}</Link> */}
         </div>
 
         {/* Kontak */}
