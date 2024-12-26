@@ -27,7 +27,7 @@ export function Hero({ t }: HeroProps) {
         <p className="mt-4 text-[20px]">{t("home.heroSubHeadline")}</p>
         <div className="flex flex-col lg:flex-row items-center gap-4 mt-8 w-full justify-center">
           <Link
-            href="https://memos-landing.vercel.app/demo"
+            href="https://memos.co.id/demo"
             target="_blank"
             className="w-full lg:w-auto"
           >
