@@ -26,7 +26,7 @@ export function Points({ t }: PointsProps) {
             </p>
           </div>
         </Fade>
-        <Fade direction="right" triggerOnce>
+        <Fade direction="right" triggerOnce className=" w-full lg:w-[40%]">
           <div className="p-24 rounded-l-full bg-primary-50">
             <Image
               src="/assets/images/clinix-point.png"
