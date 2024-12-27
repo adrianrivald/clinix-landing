@@ -8,11 +8,10 @@ import { Button } from "../Ui";
 import { Fade } from "react-awesome-reveal";
 
 interface HeroProps {
-  onClickToDemo: () => void;
   t: TFunction<"common", undefined>;
 }
 
-export function Hero({ onClickToDemo, t }: HeroProps) {
+export function Hero({ t }: HeroProps) {
   return (
     <div
       id="hero"
@@ -38,7 +37,6 @@ export function Hero({ onClickToDemo, t }: HeroProps) {
                 title={t("home.tryDemo")}
                 isPrimary
                 className="w-full lg:w-auto"
-                onClick={onClickToDemo}
               />
             </Link>
             <a href="mailto:info@notes.co.id">
