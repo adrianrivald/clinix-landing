@@ -1,4 +1,8 @@
 {
+  "meta" : {
+    "title" : "Clinix",
+    "description": "Temukan pendekatan transformatif untuk manajemen klinik dengan sistem kami yang memahami kebutuhan unik Anda, meningkatkan efisiensi operasional untuk menghadapi tantangan di masa depan."
+  },
   "home": {
     "heroHeadline": "Solusi Terbaik untuk Masa Depan Klinik Anda",
     "heroSubHeadline": "CRM Healthcare Solution Platform No. 1 di Indonesia yang menghadirkan sistem informasi kesehatan terintegrasi untuk layanan kesehatan yang lebih optimal",
@@ -80,7 +84,7 @@
     "agreement": "Dengan mengklik permintaan, Anda menyetujui kebijakan privasi kami.",
     "employee": "karyawan",
     "interestOpt1": "Gunakan di perusahaan saya",
-    "interestOpt2": "Tawarkan layanan Memo ke perusahaan lain",
+    "interestOpt2": "Tawarkan layanan Clinix ke perusahaan lain",
     "interestOpt3": "Saya seorang Dokter",
     "cancel": "Batal",
     "request": "Permintaan",
@@ -95,20 +99,16 @@
     "learnMore": "Pelajari Lebih Lanjut"
   },
   "about": {
-    "aboutHeading": "Kami menghubungkan penyedia layanan kesehatan dengan teknologi terkini",
-    "aboutSubHeading": "Inovasi untuk efisiensi kesehatan yang lebih baik, solusi terintegrasi kami meningkatkan efisiensi rumah sakit, memudahkan tenaga medis, dan memastikan perawatan yang lebih cepat dan tepat untuk pasien.",
+    "aboutHeading": "Layanan CRM Healthcare pertama di Indonesia Yang memberikan solusi inovatif sehingga mampu meningkatkan efisiensi kinerja klinik dengan memahami kebutuhan serta preferensi pasien dan dokter dengan sistem terkemuka saat ini",
     "foundedIn": "Didirikan pada tahun",
     "location": "Lokasi",
     "vision": "Visi Kami",
-    "visionContent": "Menjadi pelopor penyedia sistem terintegrasi yang mengoptimalkan operasional rumah sakit dengan memberikan pelayanan dan kemudahan bagi setiap tenaga medis tanpa terkecuali.",
+    "visionContent": "Memberikan solusi untuk para klinik dan dokter praktek mandiri agar dapat meningkatkan produktivitas melalui teknologi yang inovatif",
     "mission": "Misi Kami",
-    "missionContent1": "Menyediakan solusi terintegrasi yang menyatukan semua aspek manajemen perawatan kesehatan",
-    "missionContent2": "Meningkatkan efisiensi operasional dan akurasi layanan demi kesejahteraan pasien",
-    "missionContent3": "Menghadirkan sistem adaptif yang mudah digunakan oleh tenaga medis",
-    "missionContent4": "Mendorong digitalisasi yang lebih luas dalam ekosistem layanan kesehatan",
-    "missionContent5": "Membangun kemitraan yang kuat untuk meningkatkan kualitas layanan dan kompetensi tenaga medis",
-    "ourTeam": "Tim kami",
-    "ourTeamSubHeading": "Profesional yang siap membantu"
+    "missionContent1": "Menyediakan CRM terintegrasi yang mengelola semua aspek operasional klinik dan praktik dokter",
+    "missionContent2": "Meningkatkan efektvitas manajemen klinik yang berkualitas pada layanan pasien",
+    "missionContent3": "Menyediakan sistem yang fleksibel serta user friendly",
+    "missionContent4": "Mendorong adopsi teknologi digital dalam manajemen layanan Kesehatan untuk meningkatkan pengalaman pasien"
   },
   "article": {
     "hotTopic": "Topik Populer",

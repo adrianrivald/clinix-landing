@@ -1,4 +1,8 @@
 {
+  "meta" : {
+    "title" : "Clinix",
+    "description": "Discover a transformative approach to clinic management with our system that understands your unique needs, enhancing operational efficiency for future challenges."
+  },
   "home" : {
     "heroHeadline": "The Best Solution for the Future of Your Clinic",
     "heroSubHeadline": "The first CRM Healthcare in Indonesia, providing innovative solutions to improve efficiency, service quality, and patient satisfaction with the latest technology and management systems.",
@@ -94,7 +98,7 @@
     "agreement": "By clicking submit, you agree to our privacy policy.",
     "employee": "employees",
     "interestOpt1": "Use it in my company",
-    "interestOpt2": "Offer Memos services to other companies",
+    "interestOpt2": "Offer Clinix services to other companies",
     "interestOpt3": "I am a Doctor",
     "cancel": "Cancel",
     "request": "Request",
@@ -109,20 +113,16 @@
     "learnMore": "Learn More"
   },
   "about": {
-    "aboutHeading": "We connect healthcare providers with the latest technology.",
-    "aboutSubHeading": "Innovation for better healthcare efficiency, our integrated solutions enhance hospital efficiency, simplify tasks for medical staff, and ensure faster and more accurate care for patients.",
+    "aboutHeading": "Clinix is the first healthcare CRM service in Indonesia, offering innovative solutions to improve clinic performance by understanding the needs and preferences of both patients and doctors through the latest systems.",
     "foundedIn": "Founded in",
     "location": "Location",
     "vision": "Our Vision",
-    "visionContent": "To be the pioneer of integrated system providers that optimize hospital operations by caring for and facilitating every medical personnel without exception.",
+    "visionContent": "To provide solutions for clinics and independent practice doctors to improve productivity through innovative technology.",
     "mission": "Our Mission",
-    "missionContent1": "Providing integrated solutions that bring together all aspects of healthcare management",
-    "missionContent2": "Improve operational efficiency and service accuracy for patient welfare",
-    "missionContent3": "Deliver an adaptive system that is easy to use by medical personnel",
-    "missionContent4": "Encourage wider digitization in the healthcare ecosystem",
-    "missionContent5": "Build strong partnerships to improve service quality and competency of medical personnel",
-    "ourTeam": "Our team",
-    "ourTeamSubHeading": "Professionals ready to help"
+    "missionContent1": "To provide an integrated CRM that manages all aspects of clinic and doctor practice operations.",
+    "missionContent2": "To improve the effectiveness of clinic management and patient care services.",
+    "missionContent3": "To offer a flexible and user-friendly system.",
+    "missionContent4": "To drive the adoption of digital technology in healthcare management, enhancing the patient experience."
   },
   "article": {
     "hotTopic": "Hot Topics",

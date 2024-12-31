@@ -28,11 +28,7 @@ export function Hero({ t }: HeroProps) {
           </h1>
           <p className="mt-4 text-[20px]">{t("home.heroSubHeadline")}</p>
           <div className="flex flex-col lg:flex-row items-center gap-4 mt-8 w-full justify-center">
-            <Link
-              href="https://memos.co.id/demo"
-              target="_blank"
-              className="w-full lg:w-auto"
-            >
+            <Link href="/demo" className="w-full lg:w-auto">
               <Button
                 title={t("home.tryDemo")}
                 isPrimary

@@ -12,8 +12,8 @@ export default function HomePage() {
   return (
     <div>
       <Head>
-        <title>Clinix</title>
-        <meta name="description" content="Landing page of Clinix" />
+        <title>{t("meta.title")}</title>
+        <meta name="description" content={t("meta.description")} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
