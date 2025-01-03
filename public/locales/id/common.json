@@ -29,7 +29,7 @@
     "contactFieldEmail": "Alamat Email",
     "contactFieldEmailPh": "name@email.com",
     "contactFieldQuestion": "Pertanyaan Anda",
-    "contactFieldQuestionPh": "Bagaimana cara saya bisa mendapat produk Memos?",
+    "contactFieldQuestionPh": "Bagaimana cara saya bisa mendapat produk Clinix?",
     "contactSubmit": "Kirim Pertanyaan Anda",
     "bannerHeading": "Lihat langsung bagaimana sistem kami membantu pekerjaan Anda lebih efisien"
   },
@@ -89,7 +89,7 @@
     "cancel": "Batal",
     "request": "Permintaan",
     "successDemoHeading" : "Terima kasih, permintaan Anda telah dikirim!",
-    "successDemoSubHeading": "Kami telah menerima permintaan demo Anda, dan Tim Memos akan segera menghubungi Anda.",
+    "successDemoSubHeading": "Kami telah menerima permintaan demo Anda, dan Tim Clinix akan segera menghubungi Anda.",
     "backToHome": "Kembali ke halaman utama"
   },
   "product": {
