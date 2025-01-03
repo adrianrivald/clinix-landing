@@ -24,12 +24,15 @@ export function AboutContent({ t }: AboutContentProps) {
     <div id="about">
       <div className={twMerge("p-4 lg:p-16", maxWidthContainer)}>
         <div className="flex flex-col lg:flex-row justify-between gap-8 items-end">
-          <p className="text-center lg:text-left m-0 text-[20px] w-full">
+          <h2 className="m-0 text-[30px] lg:text-[32px] lg:text-[40px] font-bold w-full">
             {t("about.aboutHeading")}
+          </h2>
+          <p className="text-center lg:text-left m-0 text-[20px] w-full">
+            {t("about.aboutSubHeading")}
           </p>
         </div>
       </div>
-      {/* <div className={twMerge("lg:mt-4 px-4 lg:p-16", maxWidthContainer)}>
+      <div className={twMerge("lg:mt-4 px-4 lg:p-16", maxWidthContainer)}>
         <Image
           src="/assets/images/about.png"
           width={1392}
@@ -37,7 +40,7 @@ export function AboutContent({ t }: AboutContentProps) {
           alt="about-us"
           className="w-full object-contain rounded-[16px]"
         />
-      </div> */}
+      </div>
 
       <div className={twMerge("mt-4 p-4 lg:p-16", maxWidthContainer)}>
         <div className="flex flex-col lg:flex-row justify-between gap-8">
