@@ -185,7 +185,7 @@ export function DemoContent({ t }: DemoContentProps) {
       className={twMerge("mb-24 p-4 lg:p-16", maxWidthContainer)}
     >
       <div className="lg:mx-36">
-        {isSubmitted ? (
+        {!isSubmitted ? (
           <form ref={form} onSubmit={handleSubmit(onSubmit)}>
             <div className="shadow-md w-full p-8 rounded-lg border border-neutral-250">
               <h2 className="font-bold">{t("demo.demoHeading")}</h2>
