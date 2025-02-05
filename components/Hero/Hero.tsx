@@ -30,9 +30,9 @@ export function Hero({ t }: HeroProps) {
           <div className="flex flex-col lg:flex-row items-center gap-4 mt-8 w-full justify-center">
             <Link href="/demo" className="w-full lg:w-auto">
               <Button
-                title={t("home.tryDemo")}
+                title={t("home.login")}
                 isPrimary
-                className="w-full lg:w-auto"
+                className="w-full lg:w-auto px-6"
               />
             </Link>
             <a href="mailto:info@notes.co.id">
@@ -40,6 +40,7 @@ export function Hero({ t }: HeroProps) {
                 title={t("home.consultYourNeeds")}
                 isPrimary={false}
                 className="w-full lg:w-auto"
+                bgColorSecondary="bg-none"
               />
             </a>
           </div>

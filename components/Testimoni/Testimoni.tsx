@@ -89,13 +89,13 @@ export function Testimoni({ t }: TestimoniProps) {
             <div className="flex gap-2">
               <div
                 ref={navigationPrevRef}
-                className="cursor-pointer bg-primary-600 px-6 py-4 rounded-md"
+                className="cursor-pointer bg-primary-500 px-6 py-4 rounded-md"
               >
                 <ArrowLeftIcon />
               </div>
               <div
                 ref={navigationNextRef}
-                className="cursor-pointer bg-primary-600 px-6 py-4 rounded-md"
+                className="cursor-pointer bg-primary-500 px-6 py-4 rounded-md"
               >
                 <ArrowRightIcon />
               </div>

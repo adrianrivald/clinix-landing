@@ -11,7 +11,7 @@ interface ContactProps {
 export function Contact({ t }: ContactProps) {
   return (
     <div
-      id="why-us"
+      id="contact"
       className={twMerge(
         "bg-[url('/assets/images/contact-bg.png')] p-4 lg:p-16 mt-16 lg:mt-24 bg-no-repeat bg-left bg-auto",
         maxWidthContainer

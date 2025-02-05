@@ -3,7 +3,15 @@ import { useRouter } from "next/router";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import { GetStaticProps } from "next";
-import { Contact, Hero, Testimoni, WhyUs, Banner, Points } from "../components";
+import {
+  Contact,
+  Hero,
+  Testimoni,
+  WhyUs,
+  Banner,
+  Points,
+  Subscribe,
+} from "../components";
 
 export default function HomePage() {
   const { t } = useTranslation("common");
@@ -19,9 +27,10 @@ export default function HomePage() {
 
       <main>
         <Hero t={t} />
+        <Subscribe t={t} />
         <WhyUs t={t} />
         <Points t={t} />
-        {/* <Testimoni t={t} /> */}
+        <Testimoni t={t} />
         <Contact t={t} />
         <Banner t={t} />
       </main>

@@ -7,7 +7,8 @@
     "heroHeadline": "Solusi Terbaik untuk Masa Depan Klinik Anda",
     "heroSubHeadline": "CRM Healthcare Solution Platform No. 1 di Indonesia yang menghadirkan sistem informasi kesehatan terintegrasi untuk layanan kesehatan yang lebih optimal",
     "consultYourNeeds" : "Konsultasi kebutuhan Anda",
-    "tryDemo": "Coba demo gratis",
+    "tryDemo": "Coba Demo Gratis",
+    "login": "Login",
     "whyUsHeading1": "Memiliki fungsi pelayanan dan akurasi sistem data terdepan",
     "whyUsSubheading1": "Memastikan kelancaran operasional serta data yang terpercaya",
     "whyUsHeading2": "Mengurangi biaya operasinal yang efesien",
@@ -30,7 +31,7 @@
     "contactFieldEmailPh": "name@email.com",
     "contactFieldQuestion": "Pertanyaan Anda",
     "contactFieldQuestionPh": "Bagaimana cara saya bisa mendapat produk Clinix?",
-    "contactSubmit": "Kirim Pertanyaan Anda",
+    "contactSubmit": "Hubungi Kami",
     "bannerHeading": "Lihat langsung bagaimana sistem kami membantu pekerjaan Anda lebih efisien"
   },
   "navbar": {
@@ -39,7 +40,7 @@
     "product": "Produk",
     "career": "Karir",
     "article": "Artikel",
-    "tryDemo": "Coba demo gratis",
+    "login": "Login",
     "consultYourNeeds" : "Konsultasi kebutuhan Anda"
   },
   "footer": {
@@ -126,5 +127,8 @@
     "openPosition": "Posisi Terbuka",
     "apply": "Lamar",
     "discoverTheBestJob": "Temukan Pekerjaan Terbaik" 
+  },
+  "subscribe": {
+    "registerNow": "Daftar Sekarang"
   }
 }

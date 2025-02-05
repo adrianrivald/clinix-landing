@@ -8,6 +8,7 @@
     "heroSubHeadline": "The first CRM Healthcare in Indonesia, providing innovative solutions to improve efficiency, service quality, and patient satisfaction with the latest technology and management systems.",
     "consultYourNeeds" : "Consult your needs",
     "tryDemo": "Try the free demo",
+    "login": "Login",
     "whyUsHeading1": "Has advanced service functions and data system accuracy",
     "whyUsSubheading1": "Ensuring smooth operations and reliable data.",
     "whyUsHeading2": "Reducing operational costs efficiently",
@@ -44,7 +45,7 @@
     "contactFieldEmailPh": "name@email.com",
     "contactFieldQuestion": "Your Question",
     "contactFieldQuestionPh": "How can i get the Clinix product?",
-    "contactSubmit": "Submit Your Question",
+    "contactSubmit": "Contact Us",
     "bannerHeading": "See firsthand how our system makes your work more efficient."
   },
   "navbar": {
@@ -53,7 +54,7 @@
     "product": "Product",
     "career": "Career",
     "article": "Article",
-    "tryDemo": "Try the free demo",
+    "login": "Login",
     "consultYourNeeds" : "Consult your needs"
   },
   "footer": {
@@ -140,5 +141,8 @@
     "openPosition": "Open Position",
     "apply": "Apply",
     "discoverTheBestJob": "Discover the best job" 
+  },
+  "subscribe": {
+    "registerNow": "Register Now"
   }
 }

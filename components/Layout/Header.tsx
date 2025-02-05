@@ -167,9 +167,9 @@ function NavMenuMobile({
           <div className="absolute -translate-x-1/2 left-1/2 transform w-full bottom-32 flex flex-col items-center gap-4 px-4 justify-center">
             <Link href="https://memos.co.id/demo" target="_blank">
               <Button
-                title={t("navbar.tryDemo")}
+                title={t("navbar.login")}
                 isPrimary
-                className="w-full lg:w-auto"
+                className="w-full lg:w-auto px-6"
               />
             </Link>
             <Button
@@ -277,7 +277,7 @@ function NavMenuDesktop({
           />
 
           <Link href="/demo">
-            <Button title={t("navbar.tryDemo")} isPrimary />
+            <Button className="px-6" title={t("navbar.login")} isPrimary />
           </Link>
         </div>
       </header>
