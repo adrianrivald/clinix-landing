@@ -26,26 +26,32 @@ export function Banner({ t }: BannerProps) {
         <img
           src="/assets/images/demo/1.png"
           className="hidden lg:block absolute left-2 top-2"
+          alt="demo-icon-1"
         />
         <img
           src="/assets/images/demo/2.png"
           className="hidden lg:block absolute right-2 top-2"
+          alt="demo-icon-2"
         />
         <img
           src="/assets/images/demo/3.png"
           className="hidden lg:block absolute left-20 top-44"
+          alt="demo-icon-3"
         />
         <img
           src="/assets/images/demo/4.png"
           className="hidden lg:block absolute left-36 top-48"
+          alt="demo-icon-4"
         />
         <img
           src="/assets/images/demo/5.png"
           className="hidden lg:block absolute left-10 top-56"
+          alt="demo-icon-5"
         />
         <img
           src="/assets/images/demo/6.png"
           className="hidden lg:block absolute right-10 top-56"
+          alt="demo-icon-6"
         />
       </div>
     </div>

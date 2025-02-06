@@ -12,66 +12,14 @@ import type { Language } from "../Ui/Dropdown";
 import { TFunction } from "i18next";
 
 const languageList = [
-  // {
-  //   id: "sa",
-  //   label: "Arabian",
-  // },
-  // {
-  //   id: "al",
-  //   label: "Albanian",
-  // },
-  // {
-  //   id: "az",
-  //   label: "Azerbaijani",
-  // },
-  // {
-  //   id: "ba",
-  //   label: "Baluchi",
-  // },
   {
     id: "en",
     label: "English",
   },
-  // {
-  //   id: "ph",
-  //   label: "Filipino",
-  // },
-  // {
-  //   id: "fr",
-  //   label: "French",
-  // },
-  // {
-  //   id: "gr",
-  //   label: "German",
-  // },
-  // {
-  //   id: "gk",
-  //   label: "Greek",
-  // },
   {
     id: "id",
     label: "Indonesia",
   },
-  // {
-  //   id: "li",
-  //   label: "Lithuanian",
-  // },
-  // {
-  //   id: "my",
-  //   label: "Malay",
-  // },
-  // {
-  //   id: "se",
-  //   label: "Serbian",
-  // },
-  // {
-  //   id: "sp",
-  //   label: "Spanish",
-  // },
-  // {
-  //   id: "sh",
-  //   label: "Swahili",
-  // },
 ];
 
 interface NavMenuMobileProps {
@@ -116,8 +64,8 @@ function NavMenuMobile({
         <div id="logo">
           <Image
             src="/assets/logo/logo-clinix.png"
-            width={216}
-            height={56}
+            width={122}
+            height={48}
             alt="logo-clinix"
             onClick={onClickLogo}
             className="cursor-pointer"

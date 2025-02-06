@@ -114,7 +114,7 @@ export function Testimoni({ t }: TestimoniProps) {
                         alt="testi-1"
                       />
                       <div className="">
-                        <h4 className="font-bold">{data?.name}</h4>
+                        <h3 className="font-bold">{data?.name}</h3>
                         <p>{data?.occupation}</p>
                       </div>
                     </div>
