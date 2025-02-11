@@ -16,10 +16,10 @@ export function Hero({ t }: HeroProps) {
   return (
     <div
       id="hero"
-      className="flex flex-col items-center justify-center min-h-[400px] gap-4 lg:gap-16 p-4 lg:pt-44 lg:pb-0 bg-primary-10 lg:bg-primary-100 relative"
+      className="flex flex-col items-center justify-center min-h-[400px] gap-4 lg:gap-16 p-4 lg:pt-44 lg:pb-0 bg-primary-10 bg-primary-100 relative"
     >
-      <GreenDotsHero className="absolute transform top-1/2 -translate-y-1/2 left-72" />
-      <GreenDotsHero className="absolute transform bottom-12 right-[21.25rem]" />
+      <GreenDotsHero className="lg:block hidden absolute transform top-1/2 -translate-y-1/2 left-72" />
+      <GreenDotsHero className="lg:block hidden absolute transform bottom-12 right-[21.25rem]" />
 
       {/* Our Words */}
       <Fade direction="up" triggerOnce>
@@ -39,7 +39,7 @@ export function Hero({ t }: HeroProps) {
                 className="w-full lg:w-auto px-6"
               />
             </Link>
-            <a href="mailto:info@notes.co.id">
+            <a href="mailto:info@notes.co.id" className="w-full lg:w-auto">
               <Button
                 title={t("home.consultYourNeeds")}
                 isPrimary={false}
