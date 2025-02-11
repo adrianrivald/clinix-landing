@@ -33,22 +33,50 @@ export function Subscribe({ t }: SubscribeProps) {
           email untuk membuat atau memulai lagi keanggotaanmu.
         </p>
       </div>
-      <div className="flex flex-col lg:flex-row  gap-16 backdrop-blur-xl rounded-xl shadows-xl p-4 lg:p-16 relative min-h-[400px] w-[100%] mx-auto space-between items-center">
+      <div className="mt-12 flex flex-col lg:flex-row  gap-16 backdrop-blur-xl rounded-xl shadows-xl p-4 lg:p-16 relative min-h-[400px] w-[100%] mx-auto space-between items-center">
         <Fade direction="left" triggerOnce className="lg:w-[50%]">
-          <div className="mt-12">
-            <div className="bg-primary-500 p-8 rounded-[16px] text-white">
-              <h2 className="text-[24px] font-bold">Clinix Lite</h2>
-              <h2 className="text-[32px] font-bold">99k / User / Month</h2>
-              <p className="mt-2">
-                Nikmati fitur eksklusif seperti integrasi dengan <br />{" "}
-                <strong>Satu Sehat</strong> Platform dan pengelolaan
-                administrasi yang praktis!
-              </p>
+          <div className="bg-white p-8 rounded-[16px] text-neutral-500 border shadow-md">
+            <div className="">
+              <Image
+                src="/assets/images/clinix-lite.png"
+                width={380}
+                height={64}
+                alt="clinix-lite"
+              />
+              <ol className="mt-8 flex flex-col gap-5">
+                <li className="flex items-center gap-3">
+                  <Image
+                    src="/assets/icons/check-list.svg"
+                    width={20}
+                    height={20}
+                    alt="check-list"
+                  />{" "}
+                  Integrasi Satu Sehat Platform
+                </li>
+                <li className="flex items-center gap-3">
+                  <Image
+                    src="/assets/icons/check-list.svg"
+                    width={20}
+                    height={20}
+                    alt="check-list"
+                  />{" "}
+                  Mudah Digunakan
+                </li>
+                <li className="flex items-center gap-3">
+                  <Image
+                    src="/assets/icons/check-list.svg"
+                    width={20}
+                    height={20}
+                    alt="check-list"
+                  />{" "}
+                  Terpercaya
+                </li>
+              </ol>
             </div>
             <Button
               title={t("subscribe.registerNow")}
-              isPrimary={false}
-              className="w-full mt-4"
+              isPrimary={true}
+              className="w-full mt-8"
             />
           </div>
         </Fade>
