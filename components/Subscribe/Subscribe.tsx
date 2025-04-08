@@ -7,13 +7,19 @@ import { GreenDots, USPIcon1, USPIcon2, USPIcon3, USPIcon4 } from "../Icons";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import { Fade } from "react-awesome-reveal";
 import { Button } from "../Ui";
+import { useRouter } from "next/router";
 
 interface SubscribeProps {
   t: TFunction<"common", undefined>;
 }
 
 export function Subscribe({ t }: SubscribeProps) {
+  const router = useRouter();
   const alignCenter = { display: "flex", alignItems: "center" };
+
+  const onClickToClinix = () => {
+    router.push("https://memos-fe-dashboard.vercel.app?product=clinix");
+  };
   return (
     <div
       id="subscribe"
@@ -74,6 +80,7 @@ export function Subscribe({ t }: SubscribeProps) {
               </ol>
             </div>
             <Button
+              onClick={onClickToClinix}
               title={t("subscribe.registerNow")}
               isPrimary={true}
               className="w-full mt-8"
